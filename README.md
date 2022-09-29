@@ -15,3 +15,4 @@
    "davejamesmiller/laravel-breadcrumbs": "5.x",
         "doctrine/dbal": "^2.9.3",
         "fideloper/proxy": "^4.0",
+   
