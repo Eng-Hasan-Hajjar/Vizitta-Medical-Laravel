@@ -9,9 +9,11 @@
     "license": "MIT",
     "require": {
         "php": "^7.2|^8.0.2",
-        "intervention/image": "^3.0",
+        "intervention/image": "^2.7",
+        "laravel/fortify": "^1.13",
         "laravel/framework": "9.0",
         "laravel/tinker": "2.7.2",
+        "laravel/ui": "3.4",
         "laravelcollective/html": "^6.0"
     },
     "require-dev": {

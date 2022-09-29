@@ -165,8 +165,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-        MercurySeries\Flashy\FlashyServiceProvider::class,
-        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+       // MercurySeries\Flashy\FlashyServiceProvider::class,
+      //  Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         //DouglasResende\FCM\NotificationServiceProvider::class,
         /*
          * Package Service Providers...
@@ -175,14 +175,15 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
+       // App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        Spatie\Permission\PermissionServiceProvider::class,
-        Vinkla\Hashids\HashidsServiceProvider::class,
+        //Spatie\Permission\PermissionServiceProvider::class,
+      //  Vinkla\Hashids\HashidsServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
+
     ],
 
     /*
@@ -235,9 +236,9 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'Image' => Intervention\Image\Facades\Image::class,
-        'Flashy' => MercurySeries\Flashy\Flashy::class,
-        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
-        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+       // 'Flashy' => MercurySeries\Flashy\Flashy::class,
+        //'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
+        //'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
         'Hashids' => Vinkla\Hashids\Facades\Hashids::class,
         'Image' => Intervention\Image\Facades\Image::class,
 
