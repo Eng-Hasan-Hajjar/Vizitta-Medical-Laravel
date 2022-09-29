@@ -5,7 +5,7 @@
 
    "guzzlehttp/guzzle": "^6.4",
     "douglasresendemaciel/fcm-laravel-notification": "@dev",
-   "mercuryseries/flashy": "^1.0.4",
+ 
   "pusher/pusher-php-server": "^5.0",
         "spatie/laravel-cors": "^1.7",
         "spatie/laravel-permission": "^5.5.5",
@@ -15,4 +15,4 @@
    "davejamesmiller/laravel-breadcrumbs": "5.x",
         "doctrine/dbal": "^2.9.3",
         "fideloper/proxy": "^4.0",
-   
+    "mercuryseries/flashy": "^1.0.4",
